@@ -529,69 +529,37 @@ footer p i{
 }
 
 /* timeline */
-.mytimeline{
-    padding: 5px;
-}
 .timeline{
-    width: 100%;
-    margin: 0;
+    margin: 50px auto;
 }
 .timeline::after{
+    left: 31px;
     height: 85%;
 }
-#myt{
-    padding-top: 25px;
-}
 .tcontainer{
-    padding: 0;
-    width: 70%;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 20px;
 }
-.tcontainer h3{
-    right: -50px;
-    top: 25px;
+.textbox{
+    width: 90%;
 }
-.rightcontainer h3{
-    left: 300px;
-    position: absolute;
-}
-
 .rightcontainer{
     left: 0;
-    right: 3px;
 }
-
 .centercontainer{
     left: 0;
 }
-.centercontainer h3,.centercontainer span{
+.leftcontainer h3, .rightcontainer h3, .centercontainer h3{
+    left: 4px;
     display: block;
 }
-.timeline::after{
-    left: 75%;
-    max-height: 100%;
+.rightarrow, .leftarrow{
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
 }
-.rightarrow{
-    left: 213px;
-    border-left: 15px solid rgb(255, 255, 255);
-    border-right: 15px solid transparent;
-}
-.centerarrow{
-    background-color: rgb(145, 38, 38);
-    height: 10px;
-    width: 100px;
-    top: 45px;
-    z-index: 1;
-    right: 150px;
-}
-/* .tcontainer h3{
-    left: 10px;
-}
-.rightcontainer h3{
-    left: 0;
-}
-.timeline::after{
-    left: 40px;
-} */
+
 /* certificates */
 .cert{
     padding: 0;
